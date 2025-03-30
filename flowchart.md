@@ -8,8 +8,6 @@ flowchart TD
     F[Monitor Order Fill & Update Exposure]
     G[Risk Management & Rebalancing Check]
     H[Log Trades, Metrics & Update Dashboard]
-    I[Backtest Module: Replay Historical Data]
-    J[Analyze Backtest Performance & Metrics]
     K[End/Wait for Next Cycle]
     
     A --> B
@@ -20,6 +18,4 @@ flowchart TD
     F --> G
     G --> H
     H --> K
-    F --> I
-    I --> J
 ```
