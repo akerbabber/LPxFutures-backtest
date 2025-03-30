@@ -8,6 +8,7 @@ flowchart TD
     F[Monitor Order Fill & Update Exposure]
     G[Risk Management & Rebalancing Check]
     H[Log Trades, Metrics & Update Dashboard]
+    L[Hourly Check: Evaluate Hedge Validity]
     K[End/Wait for Next Cycle]
     
     A --> B
@@ -17,5 +18,6 @@ flowchart TD
     E --> F
     F --> G
     G --> H
-    H --> K
+    H --> L
+    L --> K
 ```
