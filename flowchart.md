@@ -3,7 +3,7 @@ flowchart TD
     A[Start: Initialize Bot & Load Configurations]
     B[Gather Uniswap V2 Pool Data\n& Binance Market Data]
     C[Calculate Pool Delta Exposure\n& Impermanent Loss Risk]
-    D[Determine Hedge Requirements\n\(Target Binance Position\)]
+    D[Determine Hedge Requirements\nTarget Binance Position]
     E[Submit Hedge Orders on Binance]
     F[Monitor Order Fill & Update Exposure]
     G[Risk Management & Rebalancing Check]
